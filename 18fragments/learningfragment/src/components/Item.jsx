@@ -2,7 +2,7 @@ const Item=({fh})=>{
 
     return(
         <>
-        <li className="list-group-item">{fh}</li>
+        <li className="list-group-item kg-item"><span className="kg-span">{fh}</span></li>
         </>
     );
 
