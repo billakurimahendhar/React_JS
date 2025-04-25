@@ -1,5 +1,5 @@
 const WelComeMessage = ({todoItems}) => {
 return (
-<p style={{color: "blue", fontSize: "18px", fontWeight: "bold" }}>Enjoy Your Day</p>);
+todoItems.length==0 && <p style={{color: "blue", fontSize: "18px", fontWeight: "bold" }}>Enjoy Your Day</p>);
 }
 export default WelComeMessage;
